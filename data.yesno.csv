@@ -1,0 +1,33 @@
+id,label,yes,no,url
+1,ゲームはすき？,2,5,
+2,ゲームつくったことある？,20,3,
+3,ゲームつくってみたい？,4,5,
+4,IchigoJamでかわくだりゲームをつくってみよう！,11,-,https://fukuno.jig.jp/app/IchigoJam/firstgame.html
+5,ロボットつくってみたい？,6,7,
+6,IchigoJamでエルチカロボットをつくってみよう！,4,-,https://fukuno.jig.jp/app/IchigoJam/firstled.html
+7,100円のコンピューターの計算力は人間の100倍以上？,8,9,
+8,正解は5000万倍！プログラミングしたことある？,15,10,
+9,なんと人間の5000万倍！自由にあやつってみない？,6,10,
+10,プログラミングしてみたい？,6,11,
+11,オリジナルキャラクターつくってみたい？,12,13,
+12,オリジナルドット絵でかざろう,19,-,https://fukuno.jig.jp/app/IchigoJam/firstpcg.html
+13,キーボード打つのは得意？,15,14,
+14,はやうちめいじんゲームで目指せ5秒以内！,10,-,https://fukuno.jig.jp/app/IchigoJam/#1%20%3F%22A%EF%BD%B6%EF%BE%97Z%EF%BE%8F%EF%BE%83%EF%BE%9E%20%EF%BE%8A%EF%BE%94%EF%BD%B8%EF%BD%B5%EF%BD%BD!%22%0A20%20CLT%3AC%3DASC(%22A%22)%0A30%20%3FCHR%24(C)%3B%0A40%20IF%20INKEY()!%3DC%20CONT%0A50%20C%3DC%2B1%3AIF%20C%3C%3DASC(%22Z%22)%20GOTO30%0A60%20T%3DTICK()%3A%3F%3A%3F%22TIME%3A%22%3BT%2F60%3B%22.%22%3BT%2F6%2510%0A70%20%3F%22SPACE%EF%BE%83%EF%BE%9E%20%EF%BE%93%EF%BD%B3%EF%BD%B2%EF%BE%81%EF%BE%84%EF%BE%9E%22%0A80%20IF%20INKEY()!%3DSPACE%20CONT%0A90%20RUN%0A
+15,スマホアプリつくってみたい？,17,23,
+16,キーボードでAからZ、5秒以内でうてる？,17,18,
+17,はじめてのウェブアプリにチャレンジ！,26,-,https://github.com/code4sabae/website/blob/master/README.md
+18,はやうちめいじんゲーム,17,-,https://fukuno.jig.jp/app/IchigoJam/#1%20%3F%22A%EF%BD%B6%EF%BE%97Z%EF%BE%8F%EF%BE%83%EF%BE%9E%20%EF%BE%8A%EF%BE%94%EF%BD%B8%EF%BD%B5%EF%BD%BD!%22%0A20%20CLT%3AC%3DASC(%22A%22)%0A30%20%3FCHR%24(C)%3B%0A40%20IF%20INKEY()!%3DC%20CONT%0A50%20C%3DC%2B1%3AIF%20C%3C%3DASC(%22Z%22)%20GOTO30%0A60%20T%3DTICK()%3A%3F%3A%3F%22TIME%3A%22%3BT%2F60%3B%22.%22%3BT%2F6%2510%0A70%20%3F%22SPACE%EF%BE%83%EF%BE%9E%20%EF%BE%93%EF%BD%B3%EF%BD%B2%EF%BE%81%EF%BE%84%EF%BE%9E%22%0A80%20IF%20INKEY()!%3DSPACE%20CONT%0A90%20RUN%0A
+19,じぶんのキャラクターをうごかしたい？,4,15,
+20,キーボードでプログラミングしたことある？,21,4,
+21,プログラミングの基本はだいたいOK？,17,22,
+22,IchigoJamプリントでアルゴリズムを学ぼう,23,-,https://ichigojam.github.io/print/ja/
+23,VRアプリつくってみたい？,24,26,
+24,JavaScriptはつかったことある？,25,17,
+25,Oculus Quest 2 とJavaScriptでかんたんにつくれるよ！,15,-,https://fukuno.jig.jp/3076
+26,サーバーでうごくプログラムつくってみたい？,27,28,
+27,JavaScript (Deno) でつくる超かんたんwebアプリ入門,15,-,https://github.com/taisukef/server.js/blob/main/README.md
+28,なにかつくってみたいものある？,29,30
+29,「〇〇（つくってみたいもの）+入門」で検索してみよう,15,-,https://www.google.co.jp/
+30,だれかの役に立ちたい？,31,32
+31,身の回りの課題や、SDGsにチャレンジしよう！,15,-,https://www.mofa.go.jp/mofaj/gaiko/oda/sdgs/about/index.html
+32,身の回りの理想と現実のギャップや、おもしろそうなコト、探してみよう！,15,-,https://fukuno.jig.jp/

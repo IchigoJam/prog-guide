@@ -1,0 +1,80 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<title>プログラミングガイド</title>
+<!-- プログラム -->
+<script type="module">
+import { CSV } from "https://js.sabae.cc/CSV.js";
+import { waitClick } from "https://js.sabae.cc/waitClick.js";
+
+const reload = async () => {
+  await waitClick(retry);
+  document.location.reload();
+};
+
+onload = async () => {
+  reload();
+
+  const data = CSV.toJSON(await CSV.fetch("data.yesno.csv"));
+  let cur = data[0];
+  for (;;) {
+    if (cur.no == "-") {
+      no.style.display = "none";
+      yes.textContent = "つぎへ";
+      if (cur.yes == "-") {
+        yes.style.display = "none";
+      }
+    } else {
+      no.style.display = "inline";
+      yes.textContent = "はい";
+    }
+    if (cur.url) {
+      q.innerHTML = `<a href=${cur.url}>${cur.label}</a>`;
+    } else {
+      q.textContent = cur.label;
+    }
+    const ans = await waitClick([yes, no]);
+    if (ans == 0) {
+      cur = data.find(d => d.id == cur.yes);
+    } else {
+      cur = data.find(d => d.id == cur.no);
+    }
+  }
+};
+</script>
+
+<!-- デザイン -->
+<link rel="stylesheet" href="https://code4fukui.github.io/neomo.css/neomo.css">
+<style>
+body {
+  text-align: center;
+  padding: 0 40px;
+}
+h1 {
+  font-size: min(7vw, 65px);
+}
+body {
+  max-width: 800px;
+}
+#q {
+  font-size: min(5vw, 40px);
+  margin: 1em;
+  height: 4em;
+}
+button {
+  font-size: min(5vw, 40px);
+  margin: 1em;
+}
+</style>
+</head><body>
+
+<h1>プログラミングガイド</h1>
+
+<section><section><section>
+  <div id=q></div>
+  <button id=yes>はい</button>
+  <button id=no>いいえ</button>
+</section></section></section>
+<br>
+<button id=retry>リトライ</button>
+
+<hr><a href=https://github.com/ichigojam/prog-guide/>prog-guide on GitHub</a><br>
+</body><html>
