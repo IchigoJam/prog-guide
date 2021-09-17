@@ -1,4 +1,4 @@
 # prog-guide
- 
-https://ichigojam.github.io/prog-guide/
+
+- [プログラミングガイド](https://ichigojam.github.io/prog-guide/)
 
